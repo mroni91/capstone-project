@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Hoque Enterprise : ABOUT</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="" th:href="@{/css/Navigation.css}" /> <!-- Link to Navigation CSS -->
+	<link rel="stylesheet" href="" th:href="@{/css/About.css}" /> <!-- Link to About CSS -->
+</head>
+<body>
+<header th:replace="~{Navigation::navbar()}">
+	<!-- Navigation content -->
+</header>
+<div class="content-wrapper">
+	<!-- Ownership information box -->
+	<div class="ownership-box">
+		<h3>Owned & Operated By:</h3>
+		<h2>Hoque Enterprise</h2>
+		<p>Location: Philadelphia, Pennsylvania</p>
+		<p>Owner: Ariful Hoque</p>
+		<p i class="fa-solid fa-phone"></i> 215-934-2457</p>
+	</div>
+	<!-- Description box -->
+	<div class="description-box">
+		<p>Hoque Enterprise is a diversified real estate company based in Philadelphia, Pennsylvania, specializing in tax filing, citizenship and immigration, corporate formation, foreign passport processing, visa processing, air ticketing, and web design and development. We are committed to delivering comprehensive solutions tailored to meet the unique needs of our clients.</p>
+	</div>
+</div>
+<!-- Footer at the bottom -->
+<div class="footer">
+	<p>&copy; 2024 Hoque Enterprise. All rights reserved.</p>
+</div>
+</body>
+</html>

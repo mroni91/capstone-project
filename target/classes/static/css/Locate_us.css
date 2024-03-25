@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+body{
+	background-color:rgb(0, 0, 0);
+}
+
+h1{
+	font-family: cursive;
+	margin-top: 0px;
+	color: #40e0d0;
+}
+
+.location {
+	border: 2px solid black;
+	max-width: 600px; /* Width of the iframe */
+	margin: 0 auto; /* Center the div */
+	position: relative; /* Adjusted from absolute to relative */
+	top: 50px; /* Space from the top, adjust as needed */
+}
+
+/* Center the small text and adjust color */
+small {
+	color: #40e0d0; /* Turquoise color */
+	font-weight: bold;
+	text-align: center; /* Center the text */
+	display: block; /* Make small tag a block element to allow centering */
+}
