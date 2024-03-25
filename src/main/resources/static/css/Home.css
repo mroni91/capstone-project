@@ -1,24 +1,28 @@
 @charset "ISO-8859-1";
-body{
-	overflow: hidden;
+body {
+    overflow: hidden;
+    margin: 0; /* Remove default margin */
 }
-.background
-{
-	margin-top: 0px;
+
+.background {
+    margin-top: 0px;
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('/Images/Homes.jpeg'); /* Set the background image */
+    background-size: cover; /* Ensure it covers the full area */
+    background-position: center; /* Center the image */
 }
-.background video{
-	
-	width: 100%;
-	height: 60%;
-	
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white; /* Change the color if needed to contrast with the background image */
+    z-index: 10; /* Ensure the text appears above the background image */
 }
-.text
-{
-	position: absolute;
-	top: px;
-	left: 300px;
-	background-color: transparent;
-	text-align: center;
-	font-weight: bold;
-	font-family:sans-serif;
-}
+
+/* If the video is no longer needed, you can remove the video related styles */
